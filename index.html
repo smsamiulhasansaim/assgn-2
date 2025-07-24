@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assgn-2</title>
+    <!-- Basic-custome-css -->
+     <link rel="stylesheet" href="Css/styles.css">
+     <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="bg-slate-50">
+    <!-- NAVIGATION SECTION-->
+    <nav class="w-full py-4 relative">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo Section -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="flex items-end space-x-2">
+                        <!-- Custom Flower PNG Logo -->
+                        <img src="images/logo.png" width="120px" height="120px" alt="logo">
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation Links and Cart -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-900 font-bold border-gray-900">Home</a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-200">Shop</a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-200">About us</a>
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center text-gray-700 hover:text-gray-900 transition-colors duration-200">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                            <span class="ml-2 text-sm font-medium">Cart ($56)</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Button and Cart -->
+                <div class="md:hidden flex items-center space-x-4">
+                        <a href="#" class="flex items-center text-gray-700 hover:text-gray-900 transition-colors duration-200">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                            <span class="ml-2 text-sm font-medium">Cart ($56)</span>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>

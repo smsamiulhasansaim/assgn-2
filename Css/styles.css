@@ -1,0 +1,16 @@
+
+        /* Custom font family assignments */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h2, .font-noto-serif {
+            font-family: 'Noto Serif', serif;
+        }
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
